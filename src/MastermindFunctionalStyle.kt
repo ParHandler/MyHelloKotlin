@@ -6,8 +6,7 @@ fun evaluateGuess(secret: String, guess: String): Evaluation {
 
     val commonLetters = "ABCDEF".sumBy { ch ->
 
-        Math.min(secret.count { it == ch }, guess.count {it == ch})
-    }
+        Math.min(secret.count { it == ch }, guess.count {it == ch}) }
     return Evaluation(rightPositions, commonLetters - rightPositions)
 }
 
