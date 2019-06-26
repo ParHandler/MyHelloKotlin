@@ -1,4 +1,4 @@
-package week4
+package week4.PropertiesKt
 
 import kotlin.random.Random
 
