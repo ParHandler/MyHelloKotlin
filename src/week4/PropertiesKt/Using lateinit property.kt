@@ -19,5 +19,6 @@ class A {
 
 fun main(args: Array<String>) {
     val a = A()
-
+    a.setUp()
+    a.display()
 }
