@@ -1,5 +1,11 @@
 package week4.OOP
 
+/*
+What will be printed?
+1
+2
+0 - this one
+ */
 open class Parent1 {
     open val foo = 1
     init {
